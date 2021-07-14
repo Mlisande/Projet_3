@@ -1,0 +1,541 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background-color: black;
+    color: rgba(175, 192, 166,.7);
+    font-family: 'roboto' Arial, Helvetica, sans-serif;
+   
+}
+
+/* header */
+
+header{
+    
+    width: auto;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+       
+    
+}
+
+nav{
+    width: 100%;
+}
+
+nav ul{
+    padding:0;
+    text-align: center;
+}
+
+nav ul li{
+    display: inline-block;
+   
+}
+
+
+nav li a:hover, nav li a:focus, nav li a:active {
+    background:rgba(60, 139, 155, .5);
+    text-decoration:overline ;
+  }
+
+h1{
+    font-size: 80px;
+    line-height: 50px;
+    color: rgb(39, 95, 58);
+    text-shadow: 1px 3px 2px rgb(81, 148, 94);
+  
+}
+
+
+ header p{
+    font-family: 'roboto' Arial, Helvetica, sans-serif;
+    font-size: 20px;
+   
+
+
+
+}
+
+.titre{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin-left: 7%;
+    margin-right: 3%;
+}
+
+.titre h2{
+
+    font-size: 30px;
+    font-weight: normal;
+    line-height: 60px;
+    color: rgb(81, 148, 94);
+    text-shadow:1px 3px 2px rgb(39, 95, 58) ;
+   padding-bottom: 20%;
+
+
+    
+}
+
+/* header */
+
+
+
+/* presentation */
+
+
+
+
+ 
+.box1{
+   
+    margin: 50px auto 0;
+    width: 80%;
+    max-width: 1300px;
+    height: 100vh;
+    display: flex;
+    gap: 20px;
+}
+
+h2{
+    font-family: 'lato';
+    font-style: italic;
+    font-weight: lighter;
+    color: white;
+    text-align: center;
+   
+}
+
+p{
+    font-family: 'lato', sans-serif;
+    line-height: 30px;
+}
+
+.box1 img{
+
+    width: auto;
+    height: 70vh;   
+    margin-left: 15%;
+    box-shadow: 20px 45px 2px 2px rgba(81, 148, 94,.6);
+    
+}
+
+.presentation{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 5%;
+    text-align: justify;
+    
+}
+
+/* presentation */
+
+
+/* bandeau GIF */
+
+.bandeau{
+   
+    width: auto;
+    height: 40vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* bandeau GIF */
+
+
+
+
+
+.skill1{
+    
+    width: auto;
+    height: auto;
+    display: flex;  
+    align-items: center;
+    gap: 30px;
+}
+
+.skill1 p{
+    margin-left: 10%;
+    margin-right: 5%;
+    text-align: justify;
+}
+
+.skill1 img{
+
+    width: auto;
+    /* margin-top: 20px;
+    margin-left: 2%; */
+    height: auto ;
+    border-radius: 10% 5%;  
+  
+  
+    
+}
+
+
+
+/* compétence 2 */
+
+.skill2{
+
+
+    margin-top: 20px;
+    width: auto;
+    display: flex;
+    align-items: center;
+
+
+}
+
+.skill2 img{
+
+    height:40vh;        
+    width: auto;
+    padding-right: 2%;
+    border-radius: 10% 5%;
+
+   
+
+}
+
+.skill2 p{
+   
+    margin-left: 2%;
+    margin-right: 5%;
+    text-align: justify;
+    justify-content: center;
+}
+
+
+
+
+/* compétences 2 */
+
+
+/* compétence 3 */
+
+.skill3{
+    
+    margin-top: 50px;
+    width: auto;
+   
+    display: flex;
+    align-items: center;
+
+
+}
+
+.skill3 img{
+
+    height: 40vh;
+    width:auto;
+    padding-left: 3%;
+    border-radius: 10% 5%;
+
+
+}
+
+.skill3 p{
+    margin-left: 10%;
+    margin-right: 5%;
+    text-align: justify;
+    align-items: center;
+  
+    
+}
+
+/* compétence 3 */
+
+
+.pluie{
+    
+    width: auto;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+
+}
+
+/* bandeau pluie */
+
+
+.pluie .boite1{
+    width: 5%;
+    height: 70vh;
+   background: url(images_html/pluie.matrice.gif) no-repeat center  ;
+   gap: 20px;
+   margin-left: 5px;
+}
+
+.pluie .boite2{
+    width: 5%;
+    height: 100vh;
+    background: url(images_html/pluie.matrice.gif) ;
+}
+
+.pluie .boite3{
+    width: 5%;
+    height: 70vh;
+    background: url(images_html/pluie.matrice.gif);
+}
+
+.pluie .boite4{
+    width: 5%;
+    height: 80vh;
+    background: url(images_html/pluie.matrice.gif) no-repeat  center;
+}
+
+.pluie .boite5{
+    width: 5%;
+    height: 80vh;
+    background: url(images_html/pluie.matrice.gif) ;
+}
+
+.pluie .boite6{
+    width: 5%;
+    height: 90vh;
+    background: url(images_html/pluie.matrice.gif) ;
+}
+
+/* bandeau pluie */
+
+.inmatrix{
+   
+   width: auto;
+   height: 100vh;
+   display: flex;
+  
+
+
+}
+
+.inmatrix img{
+    width: auto;
+    height: auto ;
+    margin-left:10%;
+    margin-top: 5%;
+    box-shadow: 60px -16px 2px 2px rgba(81, 148, 94,.4);
+    
+}
+
+.intexte{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 5%   ;
+    margin-left: 15%;
+    text-align: justify;
+
+}
+
+.flex{
+    display: flex;
+  
+}
+
+
+.outmatrix{
+    
+    width: auto;
+    height: 100vh;
+    display: flex;
+
+    
+}
+
+.outmatrix img{
+    width: auto;
+    height: 80vh;
+    padding-top: 10%;
+    margin-right: 60%;
+    box-shadow: 20px 40px 2px 2px rgba(81, 148, 94,.8);
+  
+
+ 
+   
+   
+}
+
+.outtexte{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-right:15%   ;
+    margin-left: 5%;
+    text-align: justify;
+
+}
+
+/* footer */
+
+footer{
+    margin-top: 5%;
+
+  
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+
+}
+
+footer p{
+    font-family: 'lato', sans-serif;
+    font-style: italic;
+    font-weight: lighter;
+    color: white;
+
+}
+
+.lienssites{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    gap: 10px;
+
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+/* footer */
+
+
+
+
+@media (max-width:980px){
+
+
+    .box1{
+        flex-direction: column;
+    }
+
+    .box1 img{
+
+        width: 60%;
+        height: auto;
+        box-shadow: none;
+    }
+
+    .skill1{
+        flex-direction: column;
+
+    }
+    .skill2{
+
+
+        flex-direction: column-reverse;
+    
+    
+    }
+
+    .skill3{
+        flex-direction: column;
+    }
+
+    .pluie{
+        display: none;
+    }
+
+    
+.inmatrix{
+  
+    flex-direction: column;
+    gap:10px
+
+ }
+
+ .inmatrix img{
+    width: 50%;
+    height: auto ;
+   
+  
+    
+}
+
+.outmatrix{
+    flex-direction: column-reverse;
+    gap:10px
+ 
+}
+
+.outmatrix img{
+   width: 50%;
+   height: auto;
+ 
+  
+}
+
+header{
+    flex-direction: column;
+    background: url(images_html/trinity_header.png) no-repeat center/
+    cover;
+}
+
+header img{
+    display: none;
+
+
+}
+
+.titre img{
+    display: none;
+}
+
+
+
+h1{
+    font-size: 10vw;
+    line-height: 60px;
+    text-shadow: 1px 3px 2px rgb(81, 148, 94);
+  
+}
+    
+
+.bandeau{
+
+    width: auto;
+    height: 20vh;
+   
+}   
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
