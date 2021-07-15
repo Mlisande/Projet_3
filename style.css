@@ -9,6 +9,7 @@ body{
     background-color: black;
     color: rgba(175, 192, 166,.7);
     font-family: 'roboto' Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
    
 }
 
@@ -136,7 +137,7 @@ p{
     flex-direction: column;
     justify-content: space-around;
     margin-left: 5%;
-    text-align: justify;
+    
     
 }
 
@@ -171,7 +172,7 @@ p{
 .skill1 p{
     margin-left: 10%;
     margin-right: 5%;
-    text-align: justify;
+   
 }
 
 .skill1 img{
@@ -216,7 +217,7 @@ p{
    
     margin-left: 2%;
     margin-right: 5%;
-    text-align: justify;
+    
     justify-content: center;
 }
 
@@ -252,8 +253,7 @@ p{
 .skill3 p{
     margin-left: 10%;
     margin-right: 5%;
-    text-align: justify;
-    align-items: center;
+   align-items: center;
   
     
 }
@@ -340,7 +340,7 @@ p{
     align-items: center;
     margin-right: 5%   ;
     margin-left: 15%;
-    text-align: justify;
+    
 
 }
 
@@ -379,7 +379,7 @@ p{
     align-items: center;
     margin-right:15%   ;
     margin-left: 5%;
-    text-align: justify;
+   
 
 }
 
@@ -387,8 +387,6 @@ p{
 
 footer{
     margin-top: 5%;
-
-  
     display: flex;
     flex-direction: column;
     gap: 50px;
@@ -417,6 +415,22 @@ footer p{
 a{
     text-decoration: none;
     color: white;
+}
+
+footer img{
+
+    width: 20%;
+
+   
+   
+    
+}
+
+.contact{
+    display: flex;
+    justify-content: flex-start;
+
+    
 }
 
 
@@ -456,10 +470,7 @@ a{
     
     }
 
-    .skill2 .img{
-        
-
-    }
+   
 
     .skill3{
         flex-direction: column;
@@ -543,6 +554,8 @@ h1{
     height: 20vh;
    
 }  
+
+
 
 
 
