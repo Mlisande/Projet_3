@@ -353,7 +353,7 @@ p{
 .outmatrix{
     
     width: auto;
-    height: 100vh;
+    height: auto;
     display: flex;
 
     
@@ -419,6 +419,8 @@ a{
     color: white;
 }
 
+
+
 /* footer */
 
 
@@ -476,16 +478,26 @@ a{
 
 .outmatrix{
     flex-direction: column-reverse;
-    gap:10px
+    gap:40px
  
 }
 
 .outmatrix img{
    width: 50%;
    height: auto;
+   padding-top: 0px;
+   margin-right: 0%;
  
   
 }
+
+/* .outmatrix img{
+    width: auto;
+    height: 80vh;
+    padding-top: 10%;
+    margin-right: 60%;
+    box-shadow: 20px 40px 2px 2px rgba(81, 148, 94,.8); */
+
 
 header{
     flex-direction: column;
@@ -498,6 +510,8 @@ header img{
 
 
 }
+
+
 
 .titre img{
     display: none;
