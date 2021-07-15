@@ -425,6 +425,10 @@ a{
 
 
 
+ 
+
+
+
 
 @media (max-width:980px){
 
@@ -491,12 +495,13 @@ a{
   
 }
 
-/* .outmatrix img{
+.outmatrix img{
     width: auto;
     height: 80vh;
     padding-top: 10%;
     margin-right: 60%;
-    box-shadow: 20px 40px 2px 2px rgba(81, 148, 94,.8); */
+    box-shadow: 20px 40px 2px 2px rgba(81, 148, 94,.8);
+}
 
 
 header{
@@ -532,7 +537,10 @@ h1{
     width: auto;
     height: 20vh;
    
-}   
+}  
+
+
+
 
 }
 
