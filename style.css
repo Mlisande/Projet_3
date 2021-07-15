@@ -177,10 +177,10 @@ p{
 .skill1 img{
 
     width: auto;
-    /* margin-top: 20px;
-    margin-left: 2%; */
+    margin-top: 20px;
+    margin-left: 5%;
     height: auto ;
-    border-radius: 10% 5%;  
+    
   
   
     
@@ -206,7 +206,7 @@ p{
     height:40vh;        
     width: auto;
     padding-right: 2%;
-    border-radius: 10% 5%;
+   
 
    
 
@@ -244,7 +244,7 @@ p{
     height: 40vh;
     width:auto;
     padding-left: 3%;
-    border-radius: 10% 5%;
+    
 
 
 }
@@ -454,6 +454,11 @@ a{
         flex-direction: column-reverse;
     
     
+    }
+
+    .skill2 .img{
+        
+
     }
 
     .skill3{
