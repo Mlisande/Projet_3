@@ -476,48 +476,22 @@ footer img{
         flex-direction: column;
     }
 
+
+    .skill3 img{
+
+        height: auto;
+        width:auto;
+       
+        
+    
+    
+    }
+
     .pluie{
         display: none;
     }
 
     
-.inmatrix{
-  
-    flex-direction: column;
-    gap:10px
-
- }
-
- .inmatrix img{
-    width: 50%;
-    height: auto ;
-   
-  
-    
-}
-
-.outmatrix{
-    flex-direction: column-reverse;
-    gap:40px
- 
-}
-
-.outmatrix img{
-   width: 50%;
-   height: auto;
-   padding-top: 0px;
-   margin-right: 0%;
- 
-  
-}
-
-.outmatrix img{
-    width: auto;
-    height: 80vh;
-    padding-top: 10%;
-    margin-right: 60%;
-    box-shadow: 20px 40px 2px 2px rgba(81, 148, 94,.8);
-}
 
 
 header{
@@ -560,6 +534,54 @@ h1{
 
 
 
+}
+
+@media (max-width: 840px) {
+
+    .inmatrix{
+  
+        flex-direction: column;
+        gap:10px
+    
+     }
+    
+     .inmatrix img{
+        width: 50%;
+        height: auto ;
+       
+      
+        
+    }
+
+    .intexte{
+        margin-bottom: 60%;
+    }
+    
+    .outmatrix{
+        flex-direction: column-reverse;
+        gap:40px
+     
+    }
+
+    .flex img{
+        width: 2%;
+        height: auto;
+
+    }
+    
+    
+ 
+     
+      
+    
+    
+    .outmatrix img{
+        width: auto;
+        height: 80vh;
+        padding-top: 10%;
+        margin-right: 20%;
+        box-shadow: 20px 40px 2px 2px rgba(81, 148, 94,.8);
+    }
 }
 
 

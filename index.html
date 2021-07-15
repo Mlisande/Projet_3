@@ -28,7 +28,7 @@
                 <li><a href="#competences" title="Compétences"><img src="images_html/minibarremenu.png" alt="barre menu"></a></li>
                 <li><a href="#danslamatrix" title="Dans la Matrix"><img src="images_html/minibarremenu.png" alt="barre menu"></a></li>
                 <li><a href="#horslamatrix" title="Hors de la Matrix"><img src="images_html/minibarremenu.png" alt="barre menu"></a></li>
-                <li><a href="#lienssites" title="liens et contact"><img src="images_html/minibarremenu.png" alt="barre menu"></a></li>
+                <li><a href="#lienssites" title="Contacts"><img src="images_html/minibarremenu.png" alt="barre menu"></a></li>
 
         
             </ul>
@@ -245,7 +245,7 @@
 
         <p>
            <a href="https://pauline-wim.github.io/hackeuse/" target="_blank">LA HAKEUSE AU CINEMA  </a>   <br>
-          <a href="http://">MOTOKO KUSANAGI: DIGITALISATION DES ARCHETYPES FEMININS</a>    </p>
+          <a href="https://moherault.github.io/PFR_TRANSHUMAN/" target="_blank">MOTOKO KUSANAGI: DIGITALISATION DES ARCHETYPES FEMININS</a>    </p>
 
         <p>
         <a href="http://">WAKANDA FOR EVER: LE PERSONNAGES DE SHURI </a>    <br>
@@ -260,7 +260,7 @@
 
 <div class="contact">
 
-    <a href="melisande.malonga@gmail.com">
+    <a href="mailto:melisande.malonga@gmail.com">
 
 <img src="images_html/icone_matriix.png" alt="icone contact">
 
@@ -316,6 +316,15 @@
           
           });
 
+          gsap.from('.skill3 p',{duration: 2, x: "90vw", scrollTrigger:{
+              trigger:'.skill3 p',
+              markers: false,
+              start: 'top 75%',
+              end:'bottom 25%',
+          }
+          
+          });
+
           gsap.from('.intexte p',{duration: 2, x: "90vw", scrollTrigger:{
               trigger:'.intexte p',
               markers: false,
@@ -326,7 +335,7 @@
           });
 
           gsap.from('.outtexte p',{duration: 2, x: "-90vw", scrollTrigger:{
-              trigger:'.outexte p',
+              trigger:'.outtexte p',
               markers: false,
               start: 'top 75%',
               end:'bottom 25%',
